@@ -1,16 +1,18 @@
 import React from 'react'
+import AboutMe from '../AboutMe/AboutMe'
+import ContactMe from '../ContactMe/ContactMe'
 import Projects from '../Projects/Projects'
 import './home.css'
 
 const Home = () => {
   return (
-    <div>
-      <header className="masthead bg-primary text-white text-center">
+    <div >
+      <header className="masthead bg-primary text-white text-center ">
     <div className="container d-flex align-items-center flex-column">
        
         <img className="masthead-avatar mb-5" src="/images/myProfile.jpg" alt="..." />
         
-        <h1 className="masthead-heading text-uppercase mb-0">Ayesiza Hawah</h1>
+        <h1 className="masthead-heading  mb-0">Ayesiza Hawah</h1>
         
         <div className="divider-custom divider-light">
             <div className="divider-custom-line"></div>
@@ -22,6 +24,8 @@ const Home = () => {
     </div>
 </header>
 <Projects />
+<AboutMe />
+<ContactMe />
     </div>
   )
 }
